@@ -1,15 +1,21 @@
 Package: slepica
 Title: Slepica
 Version: 0.0.0.9000
-Authors@R: person('Vojtěch', 'Máčala', email = 'macala.vojtech@gmail.com', role = c('cre', 'aut'))
+Authors@R: 
+    person("Vojtěch", "Máčala", , "macala.vojtech@gmail.com", role = c("cre", "aut"))
 Description: A shiny app package for working with egg data
 License: What license is it under?
+URL: https://github.com/vojtam/slepica
+BugReports: https://github.com/vojtam/slepica/issues
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.4.1),
     shiny (>= 1.7.4)
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
 Encoding: UTF-8
+Language: en-US
 LazyData: true
-RoxygenNote: 7.1.1
-URL: https://github.com/vojtam/slepica
-BugReports: https://github.com/vojtam/slepica/issues
+RoxygenNote: 7.2.3
